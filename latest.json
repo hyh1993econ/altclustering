@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:05:18Z",
+  "generated_at": "2026-09-30T07:07:52Z",
   "highest_rsi": {
     "close": 0.2215,
     "rank": 1,
@@ -9,6 +9,19 @@
   },
   "signals": [],
   "symbols": {
+    "1000BONKUSDT": {
+      "close": 0.00376,
+      "cluster": 2,
+      "current_cluster_rsi_mean": 50.64705695355438,
+      "is_highest_rsi": false,
+      "is_top_rsi_cluster": false,
+      "rsi": 52.04741379310344,
+      "rsi_rank": 2,
+      "timestamp": "2026-09-30T00:00:00Z",
+      "top_rsi_clusters": [
+        0
+      ]
+    },
     "1000PEPEUSDT": {
       "close": 0.0042508,
       "cluster": 1,
@@ -16,7 +29,7 @@
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
       "rsi": 40.30315333604009,
-      "rsi_rank": 4,
+      "rsi_rank": 5,
       "timestamp": "2026-09-30T00:00:00Z",
       "top_rsi_clusters": [
         0
@@ -29,7 +42,7 @@
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
       "rsi": 40.81419624217122,
-      "rsi_rank": 3,
+      "rsi_rank": 4,
       "timestamp": "2026-09-30T00:00:00Z",
       "top_rsi_clusters": [
         0
@@ -42,7 +55,7 @@
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
       "rsi": 38.55506225760356,
-      "rsi_rank": 5,
+      "rsi_rank": 6,
       "timestamp": "2026-09-30T00:00:00Z",
       "top_rsi_clusters": [
         1
@@ -55,7 +68,7 @@
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
       "rsi": 34.79318734793188,
-      "rsi_rank": 6,
+      "rsi_rank": 7,
       "timestamp": "2026-09-30T00:00:00Z",
       "top_rsi_clusters": [
         0
@@ -68,7 +81,7 @@
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
       "rsi": 45.64343163538874,
-      "rsi_rank": 2,
+      "rsi_rank": 3,
       "timestamp": "2026-09-30T00:00:00Z",
       "top_rsi_clusters": [
         2
