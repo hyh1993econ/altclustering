@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alt Clustering Live</title>
+  <style>
+    :root { color-scheme: light; --ink: #17233c; --muted: #64748b; --line: #d9e2ec; --band: #f7f9fc; }
+    body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--ink); background: #fff; }
+    header { padding: 28px 40px 18px; border-bottom: 1px solid var(--line); }
+    h1 { margin: 0 0 8px; font-size: 26px; font-weight: 680; letter-spacing: 0; }
+    .meta { color: var(--muted); font-size: 14px; display: flex; gap: 18px; flex-wrap: wrap; }
+    main { padding: 24px 40px 44px; }
+    section { margin-bottom: 32px; }
+    h2 { margin: 0 0 12px; font-size: 18px; font-weight: 650; letter-spacing: 0; }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 10px 9px; text-align: left; white-space: nowrap; }
+    th { color: var(--muted); font-size: 12px; font-weight: 650; text-transform: uppercase; background: var(--band); }
+    a { color: #2457a7; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .plot-list { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+    .plot-list a { border: 1px solid var(--line); padding: 7px 10px; border-radius: 6px; background: #fff; }
+    iframe { width: 100%; height: 620px; border: 1px solid var(--line); border-radius: 6px; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; }
+    @media (max-width: 720px) { header, main { padding-left: 18px; padding-right: 18px; } iframe { height: 520px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alt Clustering Live</h1>
+    <div class="meta"><span>Generated: 2026-09-30T04:52:26Z</span><span>Timeframe: 4h</span></div>
+  </header>
+  <main>
+    <section>
+      <h2>Latest State</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Symbol</th><th>Timestamp</th><th>Cluster</th><th>Top RSI Clusters</th><th>In Top RSI Cluster</th><th>RSI</th><th>Close</th></tr></thead>
+          <tbody><tr><td><a href="plots/BTCUSDT.html">BTCUSDT</a></td><td>2026-09-30T00:00:00Z</td><td>0</td><td>[1]</td><td></td><td>38.56</td><td>83300.65000000</td></tr>
+<tr><td><a href="plots/DOGEUSDT.html">DOGEUSDT</a></td><td>2026-09-30T00:00:00Z</td><td>2</td><td>[0]</td><td></td><td>34.79</td><td>0.09339000</td></tr>
+<tr><td><a href="plots/PENGUUSDT.html">PENGUUSDT</a></td><td>2026-09-30T00:00:00Z</td><td>0</td><td>[2]</td><td></td><td>45.64</td><td>0.00983200</td></tr>
+<tr><td><a href="plots/XLMUSDT.html">XLMUSDT</a></td><td>2026-09-30T00:00:00Z</td><td>1</td><td>[0]</td><td></td><td>54.29</td><td>0.22150000</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+    <section>
+      <h2>Cluster Plots</h2>
+      <div class="plot-list">
+        <a href="plots/BTCUSDT.html">BTCUSDT</a><a href="plots/DOGEUSDT.html">DOGEUSDT</a><a href="plots/PENGUUSDT.html">PENGUUSDT</a><a href="plots/XLMUSDT.html">XLMUSDT</a>
+      </div>
+      <iframe src="plots/BTCUSDT.html" loading="lazy"></iframe>
+    </section>
+    <section>
+      <h2>Recent Signals</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Timestamp</th><th>Symbol</th><th>Previous</th><th>Current</th><th>Top RSI Cluster</th><th>RSI</th><th>Close</th></tr></thead>
+          <tbody><tr><td colspan="7">No signal history yet.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
