@@ -1,101 +1,119 @@
 {
-  "generated_at": "2026-10-02T08:01:06Z",
+  "generated_at": "2026-10-02T12:01:07Z",
   "highest_rsi": {
-    "close": 86089.65,
+    "close": 86424.85,
     "rank": 1,
-    "rsi": 74.94483528731917,
+    "rsi": 82.30883782498103,
     "symbol": "BTCUSDT",
-    "timestamp": "2026-10-02T04:00:00Z"
+    "timestamp": "2026-10-02T08:00:00Z"
   },
-  "signals": [],
+  "signals": [
+    {
+      "close": 86424.85,
+      "cluster_changed": true,
+      "current_cluster": 1,
+      "current_cluster_rsi_mean": 69.23138853086671,
+      "initial": false,
+      "is_highest_rsi": true,
+      "is_top_rsi_cluster": true,
+      "previous_cluster": 0,
+      "rsi": 82.30883782498103,
+      "rsi_rank": null,
+      "run_at": "2026-10-02T12:01:07Z",
+      "signal_reason": "cluster_changed_into_top_rsi_cluster",
+      "symbol": "BTCUSDT",
+      "timestamp": "2026-10-02T08:00:00Z",
+      "top_rsi_clusters": "1"
+    }
+  ],
   "symbols": {
     "1000BONKUSDT": {
-      "close": 0.003937,
+      "close": 0.003864,
       "cluster": 2,
-      "current_cluster_rsi_mean": 50.70697192674824,
+      "current_cluster_rsi_mean": 50.708928393301555,
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
-      "rsi": 66.13756613756615,
-      "rsi_rank": 3,
-      "timestamp": "2026-10-02T04:00:00Z",
+      "rsi": 55.84269662921347,
+      "rsi_rank": 5,
+      "timestamp": "2026-10-02T08:00:00Z",
       "top_rsi_clusters": [
         0
       ]
     },
     "1000PEPEUSDT": {
-      "close": 0.0045428,
+      "close": 0.0044275,
       "cluster": 2,
-      "current_cluster_rsi_mean": 52.0858266226274,
+      "current_cluster_rsi_mean": 52.08949056742622,
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
-      "rsi": 72.65759424370395,
-      "rsi_rank": 2,
-      "timestamp": "2026-10-02T04:00:00Z",
+      "rsi": 61.74398511232221,
+      "rsi_rank": 3,
+      "timestamp": "2026-10-02T08:00:00Z",
       "top_rsi_clusters": [
         0
       ]
     },
     "1000SHIBUSDT": {
-      "close": 0.005941,
+      "close": 0.005896,
       "cluster": 2,
-      "current_cluster_rsi_mean": 50.84106145900799,
+      "current_cluster_rsi_mean": 50.844432355013105,
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
-      "rsi": 62.58596973865197,
+      "rsi": 60.185185185185205,
       "rsi_rank": 4,
-      "timestamp": "2026-10-02T04:00:00Z",
+      "timestamp": "2026-10-02T08:00:00Z",
       "top_rsi_clusters": [
         0
       ]
     },
     "BTCUSDT": {
-      "close": 86089.65,
-      "cluster": 0,
-      "current_cluster_rsi_mean": 48.08188189776197,
+      "close": 86424.85,
+      "cluster": 1,
+      "current_cluster_rsi_mean": 69.23138853086671,
       "is_highest_rsi": true,
-      "is_top_rsi_cluster": false,
-      "rsi": 74.94483528731917,
+      "is_top_rsi_cluster": true,
+      "rsi": 82.30883782498103,
       "rsi_rank": 1,
-      "timestamp": "2026-10-02T04:00:00Z",
+      "timestamp": "2026-10-02T08:00:00Z",
       "top_rsi_clusters": [
         1
       ]
     },
     "DOGEUSDT": {
-      "close": 0.09647,
+      "close": 0.09652,
       "cluster": 2,
-      "current_cluster_rsi_mean": 38.26949867885291,
+      "current_cluster_rsi_mean": 38.27726632210378,
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
-      "rsi": 60.42003231017768,
-      "rsi_rank": 5,
-      "timestamp": "2026-10-02T04:00:00Z",
+      "rsi": 63.11818943839056,
+      "rsi_rank": 2,
+      "timestamp": "2026-10-02T08:00:00Z",
       "top_rsi_clusters": [
         0
       ]
     },
     "PENGUUSDT": {
-      "close": 0.009969,
-      "cluster": 1,
-      "current_cluster_rsi_mean": 36.924468762181014,
+      "close": 0.009885,
+      "cluster": 0,
+      "current_cluster_rsi_mean": 53.044263209602214,
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
-      "rsi": 49.96189024390243,
+      "rsi": 51.03152977812376,
       "rsi_rank": 7,
-      "timestamp": "2026-10-02T04:00:00Z",
+      "timestamp": "2026-10-02T08:00:00Z",
       "top_rsi_clusters": [
         2
       ]
     },
     "XLMUSDT": {
-      "close": 0.2232,
+      "close": 0.2237,
       "cluster": 1,
-      "current_cluster_rsi_mean": 51.063172913018754,
+      "current_cluster_rsi_mean": 51.06354542770381,
       "is_highest_rsi": false,
       "is_top_rsi_cluster": false,
-      "rsi": 51.219512195121965,
+      "rsi": 53.00546448087432,
       "rsi_rank": 6,
-      "timestamp": "2026-10-02T04:00:00Z",
+      "timestamp": "2026-10-02T08:00:00Z",
       "top_rsi_clusters": [
         0
       ]
