@@ -1,24 +1,59 @@
 {
-  "generated_at": "2026-11-01T00:01:48Z",
+  "generated_at": "2026-11-01T04:16:33Z",
   "highest_rsi": {
-    "close": 0.3242,
+    "close": 0.3269,
     "rank": 1,
-    "rsi": 62.51415628539071,
+    "rsi": 71.04294478527603,
     "symbol": "STXUSDT",
-    "timestamp": "2026-10-31T20:00:00Z"
+    "timestamp": "2026-11-01T00:00:00Z"
   },
   "leader_snapshot_date": "2026-10-27",
-  "signals": [],
+  "signals": [
+    {
+      "close": 0.3269,
+      "cluster_changed": true,
+      "current_cluster": 0,
+      "current_cluster_rsi_mean": 66.92806826014875,
+      "initial": false,
+      "is_highest_rsi": true,
+      "is_top_rsi_cluster": true,
+      "previous_cluster": 2,
+      "rsi": 71.04294478527603,
+      "rsi_rank": null,
+      "run_at": "2026-11-01T04:16:31Z",
+      "signal_reason": "cluster_changed_into_top_rsi_cluster",
+      "symbol": "STXUSDT",
+      "timestamp": "2026-11-01T00:00:00Z",
+      "top_rsi_clusters": "0"
+    },
+    {
+      "close": 1.8701,
+      "cluster_changed": true,
+      "current_cluster": 2,
+      "current_cluster_rsi_mean": 66.86449462146318,
+      "initial": false,
+      "is_highest_rsi": true,
+      "is_top_rsi_cluster": true,
+      "previous_cluster": 0,
+      "rsi": 62.46958637469588,
+      "rsi_rank": null,
+      "run_at": "2026-11-01T04:16:31Z",
+      "signal_reason": "cluster_changed_into_top_rsi_cluster",
+      "symbol": "ZROUSDT",
+      "timestamp": "2026-11-01T00:00:00Z",
+      "top_rsi_clusters": "2"
+    }
+  ],
   "skipped_symbols": [],
   "symbols": {
     "1000PEPEUSDT": {
       "Rank": 43,
       "Symbol": "PEPE",
-      "close": 0.0049733,
+      "close": 0.0050329,
       "cluster": 1,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 51.99629415991481,
+      "current_cluster_rsi_mean": 51.99353379736405,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -30,10 +65,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": true,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 38.10364335822583,
-      "rsi_rank": 17,
+      "rsi": 44.5295134601136,
+      "rsi_rank": 18,
       "ticker": "Pepe",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -41,11 +76,11 @@
     "AAVEUSDT": {
       "Rank": 38,
       "Symbol": "AAVE",
-      "close": 133.7,
+      "close": 137.9,
       "cluster": 1,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 47.83407793575382,
+      "current_cluster_rsi_mean": 47.836989256856995,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -56,11 +91,11 @@
       "mom_7d": -0.0702953695343739,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 1 -> 1",
-      "rsi": 45.43168482816428,
-      "rsi_rank": 10,
+      "recent_5_clusters": "0 -> 0 -> 1 -> 1 -> 1",
+      "rsi": 56.17792421746292,
+      "rsi_rank": 5,
       "ticker": "Aave",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -68,11 +103,11 @@
     "ADAUSDT": {
       "Rank": 15,
       "Symbol": "ADA",
-      "close": 0.1928,
+      "close": 0.1923,
       "cluster": 0,
-      "cluster_age_bars": 13,
+      "cluster_age_bars": 14,
       "cluster_started_at": "2026-10-29T20:00:00Z",
-      "current_cluster_rsi_mean": 36.64823869762651,
+      "current_cluster_rsi_mean": 36.64372968104064,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -84,10 +119,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 24.334600760456297,
-      "rsi_rank": 56,
+      "rsi": 28.19383259911899,
+      "rsi_rank": 60,
       "ticker": "Cardano",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -95,11 +130,11 @@
     "AEROUSDT": {
       "Rank": 69,
       "Symbol": "AERO",
-      "close": 0.6436,
+      "close": 0.6405,
       "cluster": 0,
-      "cluster_age_bars": 61,
+      "cluster_age_bars": 62,
       "cluster_started_at": "2026-10-21T20:00:00Z",
-      "current_cluster_rsi_mean": 36.96029057371732,
+      "current_cluster_rsi_mean": 36.959809398357045,
       "is_highest_rsi": false,
       "is_leader": true,
       "is_top_rsi_cluster": false,
@@ -111,10 +146,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 29.257067718606137,
-      "rsi_rank": 42,
+      "rsi": 36.17886178861785,
+      "rsi_rank": 39,
       "ticker": "Aerodrome Finance",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -122,11 +157,11 @@
     "ALGOUSDT": {
       "Rank": 64,
       "Symbol": "ALGO",
-      "close": 0.09519,
+      "close": 0.09468,
       "cluster": 0,
-      "cluster_age_bars": 92,
+      "cluster_age_bars": 93,
       "cluster_started_at": "2026-10-16T16:00:00Z",
-      "current_cluster_rsi_mean": 37.46004080825091,
+      "current_cluster_rsi_mean": 37.45809972193259,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -138,10 +173,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 27.122785583384243,
+      "rsi": 32.791728212703106,
       "rsi_rank": 48,
       "ticker": "Algorand",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -149,11 +184,11 @@
     "APTUSDT": {
       "Rank": 77,
       "Symbol": "APT",
-      "close": 0.6323,
+      "close": 0.6349,
       "cluster": 1,
-      "cluster_age_bars": 13,
+      "cluster_age_bars": 14,
       "cluster_started_at": "2026-10-29T20:00:00Z",
-      "current_cluster_rsi_mean": 31.042687134640417,
+      "current_cluster_rsi_mean": 31.04727818987483,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -165,10 +200,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 27.307447485677926,
-      "rsi_rank": 46,
+      "rsi": 35.49141965678629,
+      "rsi_rank": 41,
       "ticker": "Aptos",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -176,11 +211,11 @@
     "ARBUSDT": {
       "Rank": 58,
       "Symbol": "ARB",
-      "close": 0.16386,
+      "close": 0.16438,
       "cluster": 0,
-      "cluster_age_bars": 10,
+      "cluster_age_bars": 11,
       "cluster_started_at": "2026-10-30T08:00:00Z",
-      "current_cluster_rsi_mean": 45.41635830327379,
+      "current_cluster_rsi_mean": 45.41609029036058,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -192,10 +227,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 37.4941009910335,
-      "rsi_rank": 20,
+      "rsi": 44.713896457765664,
+      "rsi_rank": 17,
       "ticker": "Arbitrum",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -203,11 +238,11 @@
     "ASTERUSDT": {
       "Rank": 44,
       "Symbol": "ASTER",
-      "close": 0.6998,
+      "close": 0.6981,
       "cluster": 0,
-      "cluster_age_bars": 6,
+      "cluster_age_bars": 7,
       "cluster_started_at": "2026-10-31T00:00:00Z",
-      "current_cluster_rsi_mean": 47.780971449869575,
+      "current_cluster_rsi_mean": 47.77225283302508,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -219,10 +254,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 36.19550858652574,
-      "rsi_rank": 24,
+      "rsi": 38.59154929577464,
+      "rsi_rank": 32,
       "ticker": "Aster",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -232,9 +267,9 @@
       "Symbol": "ATOM",
       "close": 1.496,
       "cluster": 0,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 29.972646192111725,
+      "current_cluster_rsi_mean": 29.97466340322096,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -246,10 +281,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 26.8707482993197,
+      "rsi": 31.98380566801616,
       "rsi_rank": 50,
       "ticker": "Cosmos",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -257,11 +292,11 @@
     "AVAXUSDT": {
       "Rank": 24,
       "Symbol": "AVAX",
-      "close": 8.565,
+      "close": 8.649,
       "cluster": 1,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 45.228973508755764,
+      "current_cluster_rsi_mean": 45.22838154996876,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -272,11 +307,11 @@
       "mom_7d": -0.0904310934169783,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 1 -> 1",
-      "rsi": 36.46408839778999,
-      "rsi_rank": 22,
+      "recent_5_clusters": "0 -> 0 -> 1 -> 1 -> 1",
+      "rsi": 43.57326478149095,
+      "rsi_rank": 21,
       "ticker": "Avalanche",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -284,11 +319,11 @@
     "BCHUSDT": {
       "Rank": 18,
       "Symbol": "BCH",
-      "close": 285.09,
+      "close": 286.91,
       "cluster": 1,
-      "cluster_age_bars": 22,
+      "cluster_age_bars": 23,
       "cluster_started_at": "2026-10-28T08:00:00Z",
-      "current_cluster_rsi_mean": 46.15218386609371,
+      "current_cluster_rsi_mean": 46.153500957445495,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -300,10 +335,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 47.365522305856445,
-      "rsi_rank": 8,
+      "rsi": 50.117945926329206,
+      "rsi_rank": 10,
       "ticker": "Bitcoin Cash",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -311,11 +346,11 @@
     "BNBUSDT": {
       "Rank": 4,
       "Symbol": "BNB",
-      "close": 704.17,
+      "close": 703.73,
       "cluster": 0,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 36.294955803235155,
+      "current_cluster_rsi_mean": 36.28944425092769,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -327,10 +362,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 29.052042933164884,
-      "rsi_rank": 43,
+      "rsi": 30.381060177324954,
+      "rsi_rank": 54,
       "ticker": "BNB",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -338,11 +373,11 @@
     "BTCUSDT": {
       "Rank": 1,
       "Symbol": "BTC",
-      "close": 77522.6,
+      "close": 77753.1,
       "cluster": 0,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 32.700941253822414,
+      "current_cluster_rsi_mean": 32.69261030305147,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -354,10 +389,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 19.25284008156126,
-      "rsi_rank": 64,
+      "rsi": 25.194754609192415,
+      "rsi_rank": 63,
       "ticker": "Bitcoin",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -365,11 +400,11 @@
     "CAKEUSDT": {
       "Rank": 75,
       "Symbol": "CAKE",
-      "close": 1.9278,
-      "cluster": 0,
-      "cluster_age_bars": 12,
-      "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 33.00675881734981,
+      "close": 1.9502,
+      "cluster": 1,
+      "cluster_age_bars": 1,
+      "cluster_started_at": "2026-11-01T00:00:00Z",
+      "current_cluster_rsi_mean": 45.28343117409246,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -380,11 +415,11 @@
       "mom_7d": -0.0233293610780086,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 24.969097651421535,
-      "rsi_rank": 54,
+      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 1",
+      "rsi": 33.71447239464227,
+      "rsi_rank": 47,
       "ticker": "PancakeSwap",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -392,11 +427,11 @@
     "CCUSDT": {
       "Rank": 23,
       "Symbol": "CC",
-      "close": 0.09779,
+      "close": 0.09776,
       "cluster": 1,
-      "cluster_age_bars": 9,
+      "cluster_age_bars": 10,
       "cluster_started_at": "2026-10-30T12:00:00Z",
-      "current_cluster_rsi_mean": 45.17716711583876,
+      "current_cluster_rsi_mean": 45.171750250804486,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -408,10 +443,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 36.218905472636806,
-      "rsi_rank": 23,
+      "rsi": 41.060349689791295,
+      "rsi_rank": 25,
       "ticker": "Canton",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -419,11 +454,11 @@
     "CRVUSDT": {
       "Rank": 82,
       "Symbol": "CRV",
-      "close": 0.2833,
+      "close": 0.2827,
       "cluster": 0,
-      "cluster_age_bars": 54,
+      "cluster_age_bars": 55,
       "cluster_started_at": "2026-10-23T00:00:00Z",
-      "current_cluster_rsi_mean": 36.99535718334062,
+      "current_cluster_rsi_mean": 36.988793561830285,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -435,10 +470,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 21.63616792249728,
-      "rsi_rank": 61,
+      "rsi": 24.39320388349512,
+      "rsi_rank": 64,
       "ticker": "Curve DAO Token",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -448,9 +483,9 @@
       "Symbol": "DASH",
       "close": 48.06,
       "cluster": 0,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 36.683152465397654,
+      "current_cluster_rsi_mean": 36.68320615284359,
       "is_highest_rsi": false,
       "is_leader": true,
       "is_top_rsi_cluster": false,
@@ -462,10 +497,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 34.39781021897812,
-      "rsi_rank": 32,
+      "rsi": 36.78048780487806,
+      "rsi_rank": 37,
       "ticker": "Dash",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -473,11 +508,11 @@
     "DOGEUSDT": {
       "Rank": 11,
       "Symbol": "DOGE",
-      "close": 0.07559,
+      "close": 0.07547,
       "cluster": 1,
-      "cluster_age_bars": 1,
+      "cluster_age_bars": 2,
       "cluster_started_at": "2026-10-31T20:00:00Z",
-      "current_cluster_rsi_mean": 50.1342296918581,
+      "current_cluster_rsi_mean": 50.12616850286588,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -488,11 +523,11 @@
       "mom_7d": -0.0284512617516082,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 1",
-      "rsi": 23.473684210526244,
-      "rsi_rank": 59,
+      "recent_5_clusters": "0 -> 0 -> 0 -> 1 -> 1",
+      "rsi": 27.063106796116386,
+      "rsi_rank": 62,
       "ticker": "Dogecoin",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -500,11 +535,11 @@
     "DOTUSDT": {
       "Rank": 45,
       "Symbol": "DOT",
-      "close": 0.9456,
+      "close": 0.949,
       "cluster": 0,
-      "cluster_age_bars": 47,
+      "cluster_age_bars": 48,
       "cluster_started_at": "2026-10-24T04:00:00Z",
-      "current_cluster_rsi_mean": 33.32167457816233,
+      "current_cluster_rsi_mean": 33.32739270901782,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -516,10 +551,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 33.6206896551724,
-      "rsi_rank": 35,
+      "rsi": 40.70378151260501,
+      "rsi_rank": 26,
       "ticker": "Polkadot",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -527,11 +562,11 @@
     "ENAUSDT": {
       "Rank": 35,
       "Symbol": "ENA",
-      "close": 0.18868,
-      "cluster": 2,
-      "cluster_age_bars": 5,
-      "cluster_started_at": "2026-10-31T04:00:00Z",
-      "current_cluster_rsi_mean": 49.50514865655656,
+      "close": 0.1878,
+      "cluster": 0,
+      "cluster_age_bars": 1,
+      "cluster_started_at": "2026-11-01T00:00:00Z",
+      "current_cluster_rsi_mean": 34.796427756307295,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -542,11 +577,11 @@
       "mom_7d": 0.0020140986908356,
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
-      "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 33.875890132248216,
-      "rsi_rank": 33,
+      "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 0",
+      "rsi": 35.58642799893134,
+      "rsi_rank": 40,
       "ticker": "Ethena",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -554,11 +589,11 @@
     "ETCUSDT": {
       "Rank": 55,
       "Symbol": "ETC",
-      "close": 7.095,
+      "close": 7.132,
       "cluster": 0,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 33.09345970567282,
+      "current_cluster_rsi_mean": 33.090253551095756,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -570,10 +605,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 22.46153846153848,
-      "rsi_rank": 60,
+      "rsi": 29.90654205607477,
+      "rsi_rank": 55,
       "ticker": "Ethereum Classic",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -581,11 +616,11 @@
     "ETHFIUSDT": {
       "Rank": 79,
       "Symbol": "ETHFI",
-      "close": 0.6237,
+      "close": 0.6282,
       "cluster": 1,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 48.78559687326425,
+      "current_cluster_rsi_mean": 48.782240805674185,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -596,11 +631,11 @@
       "mom_7d": -0.0590130326548542,
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
-      "recent_5_clusters": "2 -> 2 -> 2 -> 1 -> 1",
-      "rsi": 34.83206933911161,
+      "recent_5_clusters": "2 -> 2 -> 1 -> 1 -> 1",
+      "rsi": 40.06988934187535,
       "rsi_rank": 29,
       "ticker": "ether.fi",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -608,11 +643,11 @@
     "ETHUSDT": {
       "Rank": 2,
       "Symbol": "ETH",
-      "close": 2254.54,
+      "close": 2267.29,
       "cluster": 1,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 47.40310140438078,
+      "current_cluster_rsi_mean": 47.39677999560336,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -623,11 +658,11 @@
       "mom_7d": -0.0147493356806637,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 1 -> 1",
-      "rsi": 18.78987898789873,
-      "rsi_rank": 65,
+      "recent_5_clusters": "0 -> 0 -> 1 -> 1 -> 1",
+      "rsi": 28.919302139202244,
+      "rsi_rank": 59,
       "ticker": "Ethereum",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -635,11 +670,11 @@
     "FETUSDT": {
       "Rank": 95,
       "Symbol": "FET",
-      "close": 0.1596,
+      "close": 0.1617,
       "cluster": 1,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 34.00364884029269,
+      "current_cluster_rsi_mean": 34.000784283752196,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -651,10 +686,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 21.363636363636346,
-      "rsi_rank": 62,
+      "rsi": 29.411764705882362,
+      "rsi_rank": 57,
       "ticker": "Artificial Superintelligence Alliance",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -662,11 +697,11 @@
     "FILUSDT": {
       "Rank": 70,
       "Symbol": "FIL",
-      "close": 0.8715,
+      "close": 0.8765,
       "cluster": 0,
-      "cluster_age_bars": 86,
+      "cluster_age_bars": 87,
       "cluster_started_at": "2026-10-17T16:00:00Z",
-      "current_cluster_rsi_mean": 34.83217365357694,
+      "current_cluster_rsi_mean": 34.8391414055949,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -678,10 +713,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 37.94344473007713,
-      "rsi_rank": 18,
+      "rsi": 45.44405997693193,
+      "rsi_rank": 16,
       "ticker": "Filecoin",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -689,11 +724,11 @@
     "HBARUSDT": {
       "Rank": 28,
       "Symbol": "HBAR",
-      "close": 0.07181,
+      "close": 0.07186,
       "cluster": 2,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 51.87093708620696,
+      "current_cluster_rsi_mean": 51.868190532935365,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -704,11 +739,11 @@
       "mom_7d": -0.0729690869877786,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 2 -> 2",
-      "rsi": 36.151368760064436,
-      "rsi_rank": 25,
+      "recent_5_clusters": "0 -> 0 -> 2 -> 2 -> 2",
+      "rsi": 43.864734299516876,
+      "rsi_rank": 19,
       "ticker": "Hedera",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -716,11 +751,11 @@
     "HYPEUSDT": {
       "Rank": 10,
       "Symbol": "HYPE",
-      "close": 88.055,
+      "close": 87.697,
       "cluster": 1,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 49.08779180675417,
+      "current_cluster_rsi_mean": 49.07476207702745,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -731,11 +766,11 @@
       "mom_7d": -0.0398952749033786,
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
-      "recent_5_clusters": "2 -> 2 -> 2 -> 1 -> 1",
-      "rsi": 31.44760827204729,
-      "rsi_rank": 38,
+      "recent_5_clusters": "2 -> 2 -> 1 -> 1 -> 1",
+      "rsi": 30.533456675917336,
+      "rsi_rank": 53,
       "ticker": "Hyperliquid",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -743,11 +778,11 @@
     "ICPUSDT": {
       "Rank": 53,
       "Symbol": "ICP",
-      "close": 2.515,
+      "close": 2.509,
       "cluster": 0,
-      "cluster_age_bars": 18,
+      "cluster_age_bars": 19,
       "cluster_started_at": "2026-10-29T00:00:00Z",
-      "current_cluster_rsi_mean": 36.00975401519478,
+      "current_cluster_rsi_mean": 36.0136232533591,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -759,10 +794,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 37.610619469026595,
-      "rsi_rank": 19,
+      "rsi": 43.70179948586121,
+      "rsi_rank": 20,
       "ticker": "Internet Computer",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -770,11 +805,11 @@
     "INJUSDT": {
       "Rank": 72,
       "Symbol": "INJ",
-      "close": 7.223,
+      "close": 7.35,
       "cluster": 0,
-      "cluster_age_bars": 13,
+      "cluster_age_bars": 14,
       "cluster_started_at": "2026-10-29T20:00:00Z",
-      "current_cluster_rsi_mean": 34.21144998882323,
+      "current_cluster_rsi_mean": 34.21110633326812,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -786,10 +821,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 26.025236593059944,
-      "rsi_rank": 52,
+      "rsi": 33.73101952277656,
+      "rsi_rank": 46,
       "ticker": "Injective",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -797,11 +832,11 @@
     "JSTUSDT": {
       "Rank": 59,
       "Symbol": "JST",
-      "close": 0.13528,
+      "close": 0.13505,
       "cluster": 2,
-      "cluster_age_bars": 9,
+      "cluster_age_bars": 10,
       "cluster_started_at": "2026-10-30T12:00:00Z",
-      "current_cluster_rsi_mean": 37.97305548682549,
+      "current_cluster_rsi_mean": 37.95187627381614,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -813,10 +848,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 25.29411764705877,
-      "rsi_rank": 53,
+      "rsi": 23.232323232323154,
+      "rsi_rank": 65,
       "ticker": "JUST",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -824,11 +859,11 @@
     "JUPUSDT": {
       "Rank": 63,
       "Symbol": "JUP",
-      "close": 0.2581,
+      "close": 0.2597,
       "cluster": 1,
-      "cluster_age_bars": 18,
+      "cluster_age_bars": 19,
       "cluster_started_at": "2026-10-29T00:00:00Z",
-      "current_cluster_rsi_mean": 34.33252504843652,
+      "current_cluster_rsi_mean": 34.333689869827104,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -840,10 +875,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 28.233151183970833,
-      "rsi_rank": 44,
+      "rsi": 36.305732484076394,
+      "rsi_rank": 38,
       "ticker": "Jupiter",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -851,11 +886,11 @@
     "KASUSDT": {
       "Rank": 62,
       "Symbol": "KAS",
-      "close": 0.03255,
+      "close": 0.03289,
       "cluster": 0,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 36.92519345443528,
+      "current_cluster_rsi_mean": 36.920335544100496,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -867,10 +902,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 20.794701986754987,
-      "rsi_rank": 63,
+      "rsi": 27.802037845705996,
+      "rsi_rank": 61,
       "ticker": "Kaspa",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -878,11 +913,11 @@
     "LINKUSDT": {
       "Rank": 13,
       "Symbol": "LINK",
-      "close": 11.653,
+      "close": 11.556,
       "cluster": 1,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 66.92322501075247,
+      "current_cluster_rsi_mean": 66.91130800748752,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": true,
@@ -893,11 +928,11 @@
       "mom_7d": -0.0421735604217355,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "2 -> 2 -> 2 -> 1 -> 1",
-      "rsi": 45.020947470190144,
-      "rsi_rank": 11,
+      "recent_5_clusters": "2 -> 2 -> 1 -> 1 -> 1",
+      "rsi": 47.760683760683754,
+      "rsi_rank": 13,
       "ticker": "Chainlink",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -905,11 +940,11 @@
     "LTCUSDT": {
       "Rank": 21,
       "Symbol": "LTC",
-      "close": 55.73,
+      "close": 55.93,
       "cluster": 2,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 47.434348223872554,
+      "current_cluster_rsi_mean": 47.43148375342226,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -920,11 +955,11 @@
       "mom_7d": -0.0414151576123406,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 2 -> 2",
-      "rsi": 35.32994923857868,
-      "rsi_rank": 28,
+      "recent_5_clusters": "0 -> 0 -> 2 -> 2 -> 2",
+      "rsi": 39.107332624867176,
+      "rsi_rank": 30,
       "ticker": "Litecoin",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -932,11 +967,11 @@
     "MORPHOUSDT": {
       "Rank": 57,
       "Symbol": "MORPHO",
-      "close": 2.3726,
+      "close": 2.312,
       "cluster": 0,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 65.6854414660431,
+      "current_cluster_rsi_mean": 65.67586009737984,
       "is_highest_rsi": false,
       "is_leader": true,
       "is_top_rsi_cluster": true,
@@ -947,11 +982,11 @@
       "mom_7d": -0.0558661566270124,
       "momentum_leader_pass": true,
       "rank_leader_pass": true,
-      "recent_5_clusters": "2 -> 2 -> 2 -> 0 -> 0",
-      "rsi": 57.94349235757296,
-      "rsi_rank": 2,
+      "recent_5_clusters": "2 -> 2 -> 0 -> 0 -> 0",
+      "rsi": 55.68249258160238,
+      "rsi_rank": 7,
       "ticker": "Morpho",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -959,11 +994,11 @@
     "MUSDT": {
       "Rank": 40,
       "Symbol": "M",
-      "close": 0.8999,
+      "close": 0.8996,
       "cluster": 1,
-      "cluster_age_bars": 18,
+      "cluster_age_bars": 19,
       "cluster_started_at": "2026-10-29T00:00:00Z",
-      "current_cluster_rsi_mean": 48.3344121264499,
+      "current_cluster_rsi_mean": 48.305311784577455,
       "is_highest_rsi": false,
       "is_leader": true,
       "is_top_rsi_cluster": false,
@@ -975,10 +1010,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": true,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 8.001939864209575,
+      "rsi": 10.416666666666757,
       "rsi_rank": 66,
       "ticker": "MemeCore",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -986,11 +1021,11 @@
     "NEARUSDT": {
       "Rank": 16,
       "Symbol": "NEAR",
-      "close": 4.431,
+      "close": 4.408,
       "cluster": 0,
-      "cluster_age_bars": 58,
+      "cluster_age_bars": 59,
       "cluster_started_at": "2026-10-22T08:00:00Z",
-      "current_cluster_rsi_mean": 34.55136269581965,
+      "current_cluster_rsi_mean": 34.561793123401486,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1002,10 +1037,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 40.4031551270815,
-      "rsi_rank": 15,
+      "rsi": 50.21786492374729,
+      "rsi_rank": 9,
       "ticker": "NEAR Protocol",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1013,11 +1048,11 @@
     "NIGHTUSDT": {
       "Rank": 78,
       "Symbol": "NIGHT",
-      "close": 0.0406,
+      "close": 0.04093,
       "cluster": 2,
-      "cluster_age_bars": 8,
+      "cluster_age_bars": 9,
       "cluster_started_at": "2026-10-30T16:00:00Z",
-      "current_cluster_rsi_mean": 50.772975878257895,
+      "current_cluster_rsi_mean": 50.791522255269626,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1029,10 +1064,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 51.77865612648221,
-      "rsi_rank": 6,
+      "rsi": 62.23463687150839,
+      "rsi_rank": 3,
       "ticker": "Midnight",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1040,11 +1075,11 @@
     "ONDOUSDT": {
       "Rank": 41,
       "Symbol": "ONDO",
-      "close": 0.4098,
+      "close": 0.4096,
       "cluster": 2,
-      "cluster_age_bars": 6,
+      "cluster_age_bars": 7,
       "cluster_started_at": "2026-10-31T00:00:00Z",
-      "current_cluster_rsi_mean": 47.76406996000565,
+      "current_cluster_rsi_mean": 47.763668271679265,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1056,10 +1091,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 40.716911764705884,
+      "rsi": 46.680716543730256,
       "rsi_rank": 14,
       "ticker": "Ondo",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -1067,11 +1102,11 @@
     "PENDLEUSDT": {
       "Rank": 99,
       "Symbol": "PENDLE",
-      "close": 1.8458,
+      "close": 1.8981,
       "cluster": 0,
-      "cluster_age_bars": 4,
+      "cluster_age_bars": 5,
       "cluster_started_at": "2026-10-31T08:00:00Z",
-      "current_cluster_rsi_mean": 45.49746449707118,
+      "current_cluster_rsi_mean": 45.497725721425034,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1082,11 +1117,11 @@
       "mom_7d": -0.028855341104529,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "2 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 36.50151668351873,
-      "rsi_rank": 21,
+      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
+      "rsi": 46.242476354256226,
+      "rsi_rank": 15,
       "ticker": "Pendle",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1094,11 +1129,11 @@
     "PENGUUSDT": {
       "Rank": 90,
       "Symbol": "PENGU",
-      "close": 0.007273,
+      "close": 0.007266,
       "cluster": 0,
-      "cluster_age_bars": 8,
+      "cluster_age_bars": 9,
       "cluster_started_at": "2026-10-30T16:00:00Z",
-      "current_cluster_rsi_mean": 53.16370512858702,
+      "current_cluster_rsi_mean": 53.154113033133235,
       "is_highest_rsi": false,
       "is_leader": true,
       "is_top_rsi_cluster": false,
@@ -1110,10 +1145,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 29.958197863446358,
-      "rsi_rank": 41,
+      "rsi": 36.85714285714285,
+      "rsi_rank": 36,
       "ticker": "Pudgy Penguins",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1121,11 +1156,11 @@
     "POLUSDT": {
       "Rank": 65,
       "Symbol": "POL",
-      "close": 0.09199,
+      "close": 0.09216,
       "cluster": 2,
-      "cluster_age_bars": 52,
+      "cluster_age_bars": 53,
       "cluster_started_at": "2026-10-23T08:00:00Z",
-      "current_cluster_rsi_mean": 50.49436846212689,
+      "current_cluster_rsi_mean": 50.49446724772064,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1137,10 +1172,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 48.10189810189811,
-      "rsi_rank": 7,
+      "rsi": 50.72463768115943,
+      "rsi_rank": 8,
       "ticker": "Polygon (prev. MATIC)",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -1148,11 +1183,11 @@
     "PUMPUSDT": {
       "Rank": 42,
       "Symbol": "PUMP",
-      "close": 0.004203,
+      "close": 0.004213,
       "cluster": 1,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 55.954958314222274,
+      "current_cluster_rsi_mean": 55.940806103946066,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1163,11 +1198,11 @@
       "mom_7d": -0.0538274873152435,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "2 -> 2 -> 2 -> 1 -> 1",
-      "rsi": 35.87719298245615,
-      "rsi_rank": 27,
+      "recent_5_clusters": "2 -> 2 -> 1 -> 1 -> 1",
+      "rsi": 40.28846153846154,
+      "rsi_rank": 28,
       "ticker": "Pump.fun",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -1175,11 +1210,11 @@
     "PYTHUSDT": {
       "Rank": 83,
       "Symbol": "PYTH",
-      "close": 0.06612,
+      "close": 0.06608,
       "cluster": 0,
-      "cluster_age_bars": 13,
+      "cluster_age_bars": 14,
       "cluster_started_at": "2026-10-29T20:00:00Z",
-      "current_cluster_rsi_mean": 33.71515202579249,
+      "current_cluster_rsi_mean": 33.72090661723972,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1191,10 +1226,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 34.61036134087939,
-      "rsi_rank": 30,
+      "rsi": 42.01902748414378,
+      "rsi_rank": 23,
       "ticker": "Pyth Network",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1202,11 +1237,11 @@
     "QNTUSDT": {
       "Rank": 39,
       "Symbol": "QNT",
-      "close": 200.79,
+      "close": 199.7,
       "cluster": 2,
-      "cluster_age_bars": 42,
+      "cluster_age_bars": 43,
       "cluster_started_at": "2026-10-25T00:00:00Z",
-      "current_cluster_rsi_mean": 50.345505855671924,
+      "current_cluster_rsi_mean": 50.348514382439184,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1218,10 +1253,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 52.007118845165124,
-      "rsi_rank": 5,
+      "rsi": 59.5696489241223,
+      "rsi_rank": 4,
       "ticker": "Quant",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1229,11 +1264,11 @@
     "RENDERUSDT": {
       "Rank": 67,
       "Symbol": "RENDER",
-      "close": 1.559,
+      "close": 1.566,
       "cluster": 2,
-      "cluster_age_bars": 18,
+      "cluster_age_bars": 19,
       "cluster_started_at": "2026-10-29T00:00:00Z",
-      "current_cluster_rsi_mean": 36.02807498563944,
+      "current_cluster_rsi_mean": 36.02647977261864,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1245,10 +1280,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 27.710843373493972,
+      "rsi": 33.78839590443688,
       "rsi_rank": 45,
       "ticker": "Render",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1256,11 +1291,11 @@
     "SEIUSDT": {
       "Rank": 94,
       "Symbol": "SEI",
-      "close": 0.04764,
+      "close": 0.04814,
       "cluster": 0,
-      "cluster_age_bars": 18,
+      "cluster_age_bars": 19,
       "cluster_started_at": "2026-10-29T00:00:00Z",
-      "current_cluster_rsi_mean": 35.09555425822484,
+      "current_cluster_rsi_mean": 35.094293477131146,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1272,10 +1307,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 23.736462093862826,
-      "rsi_rank": 58,
+      "rsi": 32.70637408568443,
+      "rsi_rank": 49,
       "ticker": "Sei",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1283,11 +1318,11 @@
     "SKYUSDT": {
       "Rank": 51,
       "Symbol": "SKY",
-      "close": 0.06811,
+      "close": 0.06807,
       "cluster": 0,
-      "cluster_age_bars": 23,
+      "cluster_age_bars": 24,
       "cluster_started_at": "2026-10-28T04:00:00Z",
-      "current_cluster_rsi_mean": 48.14335028693335,
+      "current_cluster_rsi_mean": 48.15056681357567,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1299,10 +1334,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 54.89428347689897,
-      "rsi_rank": 4,
+      "rsi": 55.90111642743224,
+      "rsi_rank": 6,
       "ticker": "Sky",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1310,11 +1345,11 @@
     "SOLUSDT": {
       "Rank": 7,
       "Symbol": "SOL",
-      "close": 95.44,
-      "cluster": 0,
-      "cluster_age_bars": 12,
-      "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 33.14949981602643,
+      "close": 95.56,
+      "cluster": 1,
+      "cluster_age_bars": 1,
+      "cluster_started_at": "2026-11-01T00:00:00Z",
+      "current_cluster_rsi_mean": 46.69003270679258,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1325,11 +1360,11 @@
       "mom_7d": -0.0145733461169701,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 24.965325936199704,
-      "rsi_rank": 55,
+      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 1",
+      "rsi": 31.903945111492277,
+      "rsi_rank": 51,
       "ticker": "Solana",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1337,11 +1372,11 @@
     "STABLEUSDT": {
       "Rank": 92,
       "Symbol": "STABLE",
-      "close": 0.02646,
+      "close": 0.02625,
       "cluster": 0,
-      "cluster_age_bars": 6,
+      "cluster_age_bars": 7,
       "cluster_started_at": "2026-10-31T00:00:00Z",
-      "current_cluster_rsi_mean": 54.06624523169451,
+      "current_cluster_rsi_mean": 54.039341311688204,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1353,10 +1388,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 41.402714932126685,
-      "rsi_rank": 13,
+      "rsi": 38.59649122807019,
+      "rsi_rank": 31,
       "ticker": "Stable",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1364,11 +1399,11 @@
     "STRKUSDT": {
       "Rank": 97,
       "Symbol": "STRK",
-      "close": 0.04418,
+      "close": 0.04364,
       "cluster": 0,
-      "cluster_age_bars": 3,
+      "cluster_age_bars": 4,
       "cluster_started_at": "2026-10-31T12:00:00Z",
-      "current_cluster_rsi_mean": 46.79739642588004,
+      "current_cluster_rsi_mean": 46.79550498498172,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1379,11 +1414,11 @@
       "mom_7d": -0.3304866476887624,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "2 -> 2 -> 0 -> 0 -> 0",
-      "rsi": 39.02787705503928,
-      "rsi_rank": 16,
+      "recent_5_clusters": "2 -> 0 -> 0 -> 0 -> 0",
+      "rsi": 41.45785876993165,
+      "rsi_rank": 24,
       "ticker": "Starknet",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1391,14 +1426,14 @@
     "STXUSDT": {
       "Rank": 81,
       "Symbol": "STX",
-      "close": 0.3242,
-      "cluster": 2,
-      "cluster_age_bars": 4,
-      "cluster_started_at": "2026-10-31T08:00:00Z",
-      "current_cluster_rsi_mean": 47.484477469112,
+      "close": 0.3269,
+      "cluster": 0,
+      "cluster_age_bars": 1,
+      "cluster_started_at": "2026-11-01T00:00:00Z",
+      "current_cluster_rsi_mean": 66.92806826014875,
       "is_highest_rsi": true,
       "is_leader": false,
-      "is_top_rsi_cluster": false,
+      "is_top_rsi_cluster": true,
       "leader": false,
       "leader_pass_count": 0,
       "leader_score": 0.3636363636363636,
@@ -1406,11 +1441,11 @@
       "mom_7d": -0.1970164609053498,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "1 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 62.51415628539071,
+      "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 0",
+      "rsi": 71.04294478527603,
       "rsi_rank": 1,
       "ticker": "Stacks",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -1418,11 +1453,11 @@
     "SUIUSDT": {
       "Rank": 25,
       "Symbol": "SUI",
-      "close": 0.8989,
+      "close": 0.9006,
       "cluster": 2,
-      "cluster_age_bars": 2,
+      "cluster_age_bars": 3,
       "cluster_started_at": "2026-10-31T16:00:00Z",
-      "current_cluster_rsi_mean": 49.13882611738971,
+      "current_cluster_rsi_mean": 49.134730212636775,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1433,11 +1468,11 @@
       "mom_7d": -0.0589273458182175,
       "momentum_leader_pass": false,
       "rank_leader_pass": true,
-      "recent_5_clusters": "1 -> 1 -> 1 -> 2 -> 2",
-      "rsi": 30.24425287356327,
-      "rsi_rank": 40,
+      "recent_5_clusters": "1 -> 1 -> 2 -> 2 -> 2",
+      "rsi": 37.596566523605155,
+      "rsi_rank": 34,
       "ticker": "Sui",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -1445,11 +1480,11 @@
     "TAOUSDT": {
       "Rank": 31,
       "Symbol": "TAO",
-      "close": 236.94,
+      "close": 235.55,
       "cluster": 2,
-      "cluster_age_bars": 12,
+      "cluster_age_bars": 13,
       "cluster_started_at": "2026-10-30T00:00:00Z",
-      "current_cluster_rsi_mean": 36.719805030503466,
+      "current_cluster_rsi_mean": 36.71606262577847,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1461,10 +1496,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 26.263283452613337,
-      "rsi_rank": 51,
+      "rsi": 29.272419627749613,
+      "rsi_rank": 58,
       "ticker": "Bittensor",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -1472,11 +1507,11 @@
     "TIAUSDT": {
       "Rank": 85,
       "Symbol": "TIA",
-      "close": 0.4734,
+      "close": 0.4743,
       "cluster": 1,
-      "cluster_age_bars": 13,
+      "cluster_age_bars": 14,
       "cluster_started_at": "2026-10-29T20:00:00Z",
-      "current_cluster_rsi_mean": 34.38662814234076,
+      "current_cluster_rsi_mean": 34.3842673640469,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1488,10 +1523,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 27.157513578756777,
-      "rsi_rank": 47,
+      "rsi": 29.632020658489353,
+      "rsi_rank": 56,
       "ticker": "Celestia",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1499,11 +1534,11 @@
     "TRUMPUSDT": {
       "Rank": 91,
       "Symbol": "TRUMP",
-      "close": 1.573,
+      "close": 1.587,
       "cluster": 2,
-      "cluster_age_bars": 13,
+      "cluster_age_bars": 14,
       "cluster_started_at": "2026-10-29T20:00:00Z",
-      "current_cluster_rsi_mean": 36.79769861384593,
+      "current_cluster_rsi_mean": 36.796328320022624,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1515,10 +1550,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 24.172185430463514,
-      "rsi_rank": 57,
+      "rsi": 34.3873517786561,
+      "rsi_rank": 43,
       "ticker": "OFFICIAL TRUMP",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1526,11 +1561,11 @@
     "TRXUSDT": {
       "Rank": 8,
       "Symbol": "TRX",
-      "close": 0.30347,
+      "close": 0.30758,
       "cluster": 0,
-      "cluster_age_bars": 7,
+      "cluster_age_bars": 8,
       "cluster_started_at": "2026-10-30T20:00:00Z",
-      "current_cluster_rsi_mean": 39.48184493800922,
+      "current_cluster_rsi_mean": 39.47976638285148,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1542,10 +1577,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 31.999483671098517,
-      "rsi_rank": 36,
+      "rsi": 35.31434184675835,
+      "rsi_rank": 42,
       "ticker": "TRON",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1553,11 +1588,11 @@
     "UNIUSDT": {
       "Rank": 22,
       "Symbol": "UNI",
-      "close": 7.084,
+      "close": 7.089,
       "cluster": 1,
-      "cluster_age_bars": 10,
+      "cluster_age_bars": 11,
       "cluster_started_at": "2026-10-30T08:00:00Z",
-      "current_cluster_rsi_mean": 50.84559874548741,
+      "current_cluster_rsi_mean": 50.844530143092776,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1569,10 +1604,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 42.483026188166825,
+      "rsi": 47.776572668112806,
       "rsi_rank": 12,
       "ticker": "Uniswap",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1580,11 +1615,11 @@
     "VETUSDT": {
       "Rank": 80,
       "Symbol": "VET",
-      "close": 0.00586,
+      "close": 0.005891,
       "cluster": 0,
-      "cluster_age_bars": 36,
+      "cluster_age_bars": 37,
       "cluster_started_at": "2026-10-26T00:00:00Z",
-      "current_cluster_rsi_mean": 36.99463344550005,
+      "current_cluster_rsi_mean": 36.99517414769382,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1596,10 +1631,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": true,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 30.31390134529147,
-      "rsi_rank": 39,
+      "rsi": 38.119834710743845,
+      "rsi_rank": 33,
       "ticker": "VeChain",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1607,11 +1642,11 @@
     "VIRTUALUSDT": {
       "Rank": 96,
       "Symbol": "VIRTUAL",
-      "close": 0.5905,
+      "close": 0.5917,
       "cluster": 2,
-      "cluster_age_bars": 13,
+      "cluster_age_bars": 14,
       "cluster_started_at": "2026-10-29T20:00:00Z",
-      "current_cluster_rsi_mean": 36.62562279139149,
+      "current_cluster_rsi_mean": 36.62971108355456,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1623,10 +1658,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "2 -> 2 -> 2 -> 2 -> 2",
-      "rsi": 35.93272171253825,
-      "rsi_rank": 26,
+      "rsi": 42.692648361381764,
+      "rsi_rank": 22,
       "ticker": "Virtuals Protocol",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         1
       ]
@@ -1634,11 +1669,11 @@
     "WLDUSDT": {
       "Rank": 46,
       "Symbol": "WLD",
-      "close": 0.3983,
+      "close": 0.3987,
       "cluster": 0,
-      "cluster_age_bars": 49,
+      "cluster_age_bars": 50,
       "cluster_started_at": "2026-10-23T20:00:00Z",
-      "current_cluster_rsi_mean": 35.24643610281452,
+      "current_cluster_rsi_mean": 35.249010328617736,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1650,10 +1685,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 33.80753138075313,
-      "rsi_rank": 34,
+      "rsi": 40.436075322101104,
+      "rsi_rank": 27,
       "ticker": "Worldcoin",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1661,11 +1696,11 @@
     "WLFIUSDT": {
       "Rank": 50,
       "Symbol": "WLFI",
-      "close": 0.05011,
+      "close": 0.05039,
       "cluster": 1,
-      "cluster_age_bars": 55,
+      "cluster_age_bars": 56,
       "cluster_started_at": "2026-10-22T20:00:00Z",
-      "current_cluster_rsi_mean": 36.78308685498489,
+      "current_cluster_rsi_mean": 36.7730719034562,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1677,10 +1712,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 31.453362255965374,
-      "rsi_rank": 37,
+      "rsi": 31.15468409586056,
+      "rsi_rank": 52,
       "ticker": "World Liberty Financial",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         0
       ]
@@ -1688,11 +1723,11 @@
     "XLMUSDT": {
       "Rank": 17,
       "Symbol": "XLM",
-      "close": 0.1695,
+      "close": 0.16871,
       "cluster": 1,
-      "cluster_age_bars": 7,
+      "cluster_age_bars": 8,
       "cluster_started_at": "2026-10-30T20:00:00Z",
-      "current_cluster_rsi_mean": 53.742736957763384,
+      "current_cluster_rsi_mean": 53.74132115397277,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1704,10 +1739,10 @@
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 45.49402823018459,
-      "rsi_rank": 9,
+      "rsi": 49.41037735849055,
+      "rsi_rank": 11,
       "ticker": "Stellar",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1715,11 +1750,11 @@
     "XRPUSDT": {
       "Rank": 5,
       "Symbol": "XRP",
-      "close": 1.2514,
-      "cluster": 0,
-      "cluster_age_bars": 13,
-      "cluster_started_at": "2026-10-29T20:00:00Z",
-      "current_cluster_rsi_mean": 37.102505481231745,
+      "close": 1.2496,
+      "cluster": 1,
+      "cluster_age_bars": 1,
+      "cluster_started_at": "2026-11-01T00:00:00Z",
+      "current_cluster_rsi_mean": 52.20140560257267,
       "is_highest_rsi": false,
       "is_leader": false,
       "is_top_rsi_cluster": false,
@@ -1730,11 +1765,11 @@
       "mom_7d": -0.0122900763358779,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 26.88342585249795,
-      "rsi_rank": 49,
+      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 1",
+      "rsi": 33.96793587174341,
+      "rsi_rank": 44,
       "ticker": "XRP",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1742,11 +1777,11 @@
     "ZECUSDT": {
       "Rank": 9,
       "Symbol": "ZEC",
-      "close": 1251.08,
+      "close": 1243.51,
       "cluster": 1,
-      "cluster_age_bars": 42,
+      "cluster_age_bars": 43,
       "cluster_started_at": "2026-10-25T00:00:00Z",
-      "current_cluster_rsi_mean": 49.396158518207464,
+      "current_cluster_rsi_mean": 49.3920691093246,
       "is_highest_rsi": false,
       "is_leader": true,
       "is_top_rsi_cluster": false,
@@ -1758,10 +1793,10 @@
       "momentum_leader_pass": true,
       "rank_leader_pass": true,
       "recent_5_clusters": "1 -> 1 -> 1 -> 1 -> 1",
-      "rsi": 34.51229460435843,
-      "rsi_rank": 31,
+      "rsi": 36.97253433208488,
+      "rsi_rank": 35,
       "ticker": "Zcash",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
@@ -1769,14 +1804,14 @@
     "ZROUSDT": {
       "Rank": 74,
       "Symbol": "ZRO",
-      "close": 1.8548,
-      "cluster": 0,
-      "cluster_age_bars": 5,
-      "cluster_started_at": "2026-10-31T04:00:00Z",
-      "current_cluster_rsi_mean": 51.60196588538141,
+      "close": 1.8701,
+      "cluster": 2,
+      "cluster_age_bars": 1,
+      "cluster_started_at": "2026-11-01T00:00:00Z",
+      "current_cluster_rsi_mean": 66.86449462146318,
       "is_highest_rsi": false,
       "is_leader": false,
-      "is_top_rsi_cluster": false,
+      "is_top_rsi_cluster": true,
       "leader": false,
       "leader_pass_count": 0,
       "leader_score": 0.3863636363636363,
@@ -1784,11 +1819,11 @@
       "mom_7d": -0.1687017680961219,
       "momentum_leader_pass": false,
       "rank_leader_pass": false,
-      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 0",
-      "rsi": 56.43550228310502,
-      "rsi_rank": 3,
+      "recent_5_clusters": "0 -> 0 -> 0 -> 0 -> 2",
+      "rsi": 62.46958637469588,
+      "rsi_rank": 2,
       "ticker": "LayerZero",
-      "timestamp": "2026-10-31T20:00:00Z",
+      "timestamp": "2026-11-01T00:00:00Z",
       "top_rsi_clusters": [
         2
       ]
